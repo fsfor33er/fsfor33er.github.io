@@ -11,7 +11,7 @@
 
     <title>
         
-        
+        Tags - undefined
         
     </title>
 
@@ -53,13 +53,13 @@
     </div>
     <div class="contents" id="nav-content">
         <ul>
-            <li class="active">
+            <li>
                 <a href="/">
                     <i class="iconfont icon-shouye1"></i>
                     <span>主页</span>
                 </a>
             </li>
-            <li>
+            <li class="active">
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>标签</span>
@@ -110,34 +110,36 @@
     
     <div class="index-middle">
         <!-- Main Content -->
-        
-<div class="post-preview-container" style="min-height: 720px">
+        <div id="tag_cloud" class="tags">
     
+    <a href="#hello" title="hello" rel="1">hello</a>
+    
+</div>
+
+<!-- 标签列表 -->
+
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="hello">
+                    <span class="tag-text">hello</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
     <div class="post-preview">
-        <div class="post-time">2019-02-15</div>
-        <div class="post-info">
-            <a href="/2019/02/15/hello-world/">
-                <h3>
-                    Hello World
-                </h3>
-            </a>
-            <p>
-                
-                <span>/</span>
-                
-                <a class="tag" href="/tags/#hello" title="hello">hello</a>
-                <span>/</span>
-                
-                
-            </p>
-        </div>
+        <a href="/2019/02/15/hello-world/">
+            <h2 class="post-title">
+                Hello World
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
     </div>
     
 </div>
-<ul class="pager">
-    
-    
-</ul>
+
 
     </div>
 </div>
